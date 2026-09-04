@@ -1,0 +1,2 @@
+fold,train,validation,cal_fit,cal_select,test,train_used,event_train,event_cal_fit,event_cal_select,event_test,n_features
+1,8000,3000,3000,3000,3000,8000,0.046375,0.036333333333333336,0.038,0.04566666666666667,30

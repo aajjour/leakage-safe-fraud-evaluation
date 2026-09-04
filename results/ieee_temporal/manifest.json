@@ -1,0 +1,14 @@
+{
+  "mode": "full",
+  "rows_loaded": 590540,
+  "frauds_loaded": 20663,
+  "features": 431,
+  "folds": 4,
+  "models": [
+    "logistic",
+    "lightgbm",
+    "xgboost"
+  ],
+  "threads": 6,
+  "max_train": 300000
+}

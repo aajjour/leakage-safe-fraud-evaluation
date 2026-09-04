@@ -1,0 +1,11 @@
+fold,model,calibration,success,rank_violations,calibrated_ties,spearman_raw_calibrated,intercept,coef,a,b_raw,n_thresholds,theta,alpha,beta_inner,b,nll_fit,aic,bic,lambda_left,lambda_right,selection_logloss,method,lambda1,lambda0,penalty,outer_penalty,status,message,n_iter,objective,gradient_norm,boundary_hit,selected_penalty
+1,logistic,raw,True,0,6,0.9999999999999999,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,logistic,platt,True,0,6,0.9999999999999999,-3.1317180306888774,0.6418645023640024,,,,,,,,,,,,,,,,,,,,,,,,,
+1,logistic,beta,True,0,9,0.9999999978888886,-1.8345263770285367,,1.6841275138296063,-0.3191110098162968,,,,,,,,,,,,,,,,,,,,,,,
+1,logistic,isotonic,True,0,2967,0.9800107660163412,,,,,34.0,,,,,,,,,,,,,,,,,,,,,,
+1,logistic,bgb,True,0,23,0.9999998734444213,,,1.827096496674369,,,-2.019116488009521,0.8441295708644417,1.2066626228638178,0.31001486893623437,349.95948178580136,709.9189635716027,739.950801409854,,,,,,,,,,,,,,,
+1,logistic,opbgb_symmetric,True,0,9,0.9999999978888886,,,,,,,,,,,,,1.0,1.0,0.14044944111714067,,,,,,,,,,,,
+1,logistic,opbgb_two_sided_unconstrained,True,0,9,0.9999999978888886,,,,,,,,,,,,,0.7,1.0,0.14031281433563175,,,,,,,,,,,,
+1,logistic,opbgb_symmetric_monotone,True,0,9,0.9999999978888886,,,1.5774519689650832,,,-1.7710354601706015,,,0.3077714696579101,,,,,,0.14045374169418676,monotone_opbgb_symmetric,0.9940646712826791,0.9940646712826791,0.01,1e-06,0.0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,16.0,0.12837901474370556,4.9731722755951285e-08,False,0.01
+1,logistic,opbgb_two_sided_monotone,True,0,9,0.9999999978888886,,,1.8206332623857484,,,-1.7430616021956513,,,0.2812184919593691,,,,,,0.1404236608190938,monotone_opbgb_two_sided,0.8495304012557688,1.0672329529770088,0.001,1e-06,0.0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,24.0,0.1283566674265804,2.7623184154949002e-08,False,0.001
+1,logistic,nested_selected,True,0,9,0.9999999978888886,,,1.8206332623857484,,,-1.7430616021956513,,,0.2812184919593691,,,,,,0.1404236608190938,monotone_opbgb_two_sided,0.8495304012557688,1.0672329529770088,0.001,1e-06,0.0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,24.0,0.1283566674265804,2.7623184154949002e-08,False,0.001

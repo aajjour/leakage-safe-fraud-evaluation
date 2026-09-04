@@ -1,0 +1,19 @@
+item,minimum_reporting_requirement,evidence_in_this_study
+Deployment estimand,State the future decision and prediction time,Retrospective future-transaction evaluation under fixed temporal folds
+Label maturity,Report when labels become available,Delay scenarios evaluated for Sparkov merchant histories
+Temporal partitions,Give exact train validation calibration selection and test boundaries,Split audits and manifests supplied
+Point-in-time features,Ensure each feature uses only earlier information,Strict left-sided card and merchant histories
+Entity overlap,Describe duplicate and entity controls,Unique transaction identifiers and one-to-one identity join validation
+Preprocessing provenance,Fit transformations within development data only,Training-fitted mappings medians and scaling
+Imbalance handling,Confine sampling or weighting to training,Evaluation blocks retain natural prevalence
+Model selection,Separate selection from final future evaluation,Validation blocks precede untouched test blocks
+Calibration,Identify calibration-fit and selection data,Separate chronological calibration windows
+Decision policy,Prespecify thresholds budgets or costs,Fixed 0.5% and 1% alert budgets
+Discrimination,Report imbalance-appropriate ranking metrics,PR-AUC and ROC-AUC
+Probability quality,Report proper scores and calibration diagnostics,Brier log loss ECE ICI intercept slope and O:E
+Operational utility,Report capacity-constrained event and value outcomes,Precision recall and fraud-value capture at fixed budgets
+Temporal uncertainty,Report fold variation and small-sample limits,Exact finite fold-resampling sensitivity intervals; paired sign-flip tests; win counts; standardized paired effects
+Comparator integrity,Hold non-split design choices constant,Matched sample sizes prevalence models preprocessing calibration and budgets
+Reproducibility,Provide code configurations splits and manifests,Tested runners outputs instructions and checksums
+Final-test immutability,Prohibit tuning after test inspection,Pipeline frozen before final future scoring
+Limitations,State data and deployment constraints,Synthetic and competition-data limitations absent institutional costs and four-fold inference limit

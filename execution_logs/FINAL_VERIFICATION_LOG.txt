@@ -1,0 +1,11 @@
+Final verification date: 20 July 2026
+
+Completed checks:
+1. Exact finite fold-resampling workflow executed from a clean output directory. All five regenerated CSV files matched the frozen supplied outputs column-by-column and numerically.
+2. Constrained monotone OPBGB unit suite: 6 tests passed.
+3. Frozen monotone OPBGB outputs: 120 metric rows, 24 constrained monotone rows, zero rank violations, minimum raw-versus-calibrated Spearman correlation above 0.999999.
+4. OPBGB debug run executed on the official IEEE-CIS train_transaction.csv and train_identity.csv with a 50,000-row training cap; all outputs were finite and the constrained monotone rows had zero rank violations.
+5. Raw IEEE-CIS and Sparkov file SHA-256 hashes matched the values documented in DATA_DOWNLOAD_INSTRUCTIONS.md.
+6. All Python files passed byte-code compilation; all Bash files passed bash -n syntax validation.
+
+The full long-running frozen outputs supplied in this archive were not regenerated in this final packaging pass. They were reconciled against the manuscript and verified through the recorded outputs, manifests, unit tests, exact-resampling rerun, and the successful official-data debug run.

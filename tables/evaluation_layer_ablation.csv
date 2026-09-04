@@ -1,0 +1,7 @@
+evidence_layer,verified_evidence,conclusion_if_stopped,incremental_insight
+Random split only,IEEE-CIS PR-AUC: logistic 0.416; LightGBM 0.697; XGBoost 0.704,Models appear substantially stronger,Mixing past and future overstates deployment performance
+Strict temporal discrimination,"IEEE-CIS PR-AUC: 0.299; 0.509; 0.532; relative optimism 39.1%, 37.0%, 32.3%",Boosting remains strongest but future performance is lower,Temporal order changes the estimand and exposes drift
+Temporal probability calibration,Platt improves logistic and LightGBM; raw XGBoost competitive; BGB logistic log loss 0.12696 vs beta 0.13450,Probability reliability is model-specific,Calibration requires separate chronological fitting and selection
+Fixed alert capacity,"At 0.5% budget, boosting precision about 0.92 and recall about 0.13",Pure alerts do not imply broad coverage,Operational capacity changes interpretation
+Fraud-value capture,"At 1% budget: 0.0867, 0.1446, 0.1592",XGBoost retrieves the most fraud value,Event and monetary objectives differ
+Cross-dataset realism,Sparkov PR-AUC about 0.97 and recall about 0.95 vs IEEE-CIS PR-AUC 0.51-0.53 and recall about 0.13,Synthetic evidence does not establish deployment readiness,Dataset realism is part of evaluation validity

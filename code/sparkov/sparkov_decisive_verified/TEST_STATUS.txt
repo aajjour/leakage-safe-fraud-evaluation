@@ -1,0 +1,9 @@
+VERIFIED 2026-07-16
+- Python syntax compilation: passed
+- Bash syntax checks: passed
+- End-to-end debug execution: passed on a 105,651-row chronologically representative Sparkov subset spanning Jan 2019-Dec 2020 and containing all 9,651 fraud cases.
+- Completed models: logistic regression and LightGBM
+- Completed calibrators: raw, Platt, beta
+- Output files: decisive_metrics.csv, decisive_summary.csv, decisive_predictions.csv.gz, paired_tests.csv, run_manifest.json
+- Critical leakage correction: merchant histories use searchsorted(..., side='left') so the current transaction label is excluded, including the zero-day label-delay scenario.
+- Full 1.85M-row execution was not completed in the hosted environment because point-in-time feature construction exceeded the execution ceiling; it is intended for the parallel Mac Bash run.

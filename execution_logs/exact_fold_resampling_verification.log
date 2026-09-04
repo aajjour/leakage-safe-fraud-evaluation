@@ -1,0 +1,6 @@
+Wrote five exact fold-resampling outputs to /mnt/data/eswa_final_restructure_work/exact_verify
+primary_fold_uncertainty.csv: VERIFIED identical
+manuscript_pr_auc_uncertainty.csv: VERIFIED identical
+calibration_fold_uncertainty.csv: VERIFIED identical
+paired_fold_effects.csv: VERIFIED identical
+random_temporal_uncertainty.csv: VERIFIED identical

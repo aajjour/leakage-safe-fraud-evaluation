@@ -1,0 +1,17 @@
+{
+  "mode": "debug",
+  "rows": 20000,
+  "features": 30,
+  "folds": 1,
+  "models": [
+    "logistic"
+  ],
+  "grid": [
+    0.7,
+    1.0,
+    1.4
+  ],
+  "threads": 6,
+  "bgb_shrink": 1.0,
+  "metric_rows": 10
+}

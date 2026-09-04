@@ -1,0 +1,16 @@
+......                                                                   [100%]
+6 passed in 1.38s
+done fold=1 model=logistic selected=opbgb_two_sided_monotone
+   model                   calibration  pr_auc_mean  pr_auc_sd  brier_mean  logloss_mean  ece_mean  ici_mean  cal_intercept_mean  cal_slope_mean  oe_ratio_mean  rank_violations_total  spearman_min
+logistic                          beta     0.355767        NaN    0.036727      0.145616  0.016764  0.016139            0.827863        1.105975       1.526751                      0      1.000000
+logistic                           bgb     0.355767        NaN    0.036741      0.145692  0.016948  0.016293            0.864306        1.116036       1.532701                      0      1.000000
+logistic                      isotonic     0.310424        NaN    0.037163      0.159582  0.017908  0.016670            0.049627        0.834007       1.569758                      0      0.980011
+logistic               nested_selected     0.355767        NaN    0.036522      0.143951  0.013087  0.013406            0.861000        1.175901       1.352098                      0      1.000000
+logistic               opbgb_symmetric     0.355767        NaN    0.036726      0.145608  0.016747  0.016125            0.826958        1.105928       1.526013                      0      1.000000
+logistic      opbgb_symmetric_monotone     0.355767        NaN    0.036553      0.144056  0.013227  0.013496            0.873320        1.179377       1.354624                      0      1.000000
+logistic      opbgb_two_sided_monotone     0.355767        NaN    0.036522      0.143951  0.013087  0.013406            0.861000        1.175901       1.352098                      0      1.000000
+logistic opbgb_two_sided_unconstrained     0.355767        NaN    0.036637      0.145358  0.016940  0.016018            0.817552        1.103685       1.519819                      0      1.000000
+logistic                         platt     0.355767        NaN    0.037781      0.150259  0.017445  0.019876            1.886313        1.424668       1.537166                      0      1.000000
+logistic                           raw     0.355767        NaN    0.100147      0.360175  0.225479  0.225479           -2.576422        0.913935       0.168421                      0      1.000000
+Results: /mnt/data/eswa_final_restructure_work/final_supp/Supplementary_Material_S1/code/opbgb_monotone_v2/results_debug
+DEBUG OUTPUT VERIFIED: 10 rows; 2 monotone rows; zero rank violations

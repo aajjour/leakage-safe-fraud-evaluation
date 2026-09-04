@@ -1,0 +1,33 @@
+{
+  "mode": "full",
+  "folds": [
+    "2020-07",
+    "2020-08",
+    "2020-09",
+    "2020-10",
+    "2020-11",
+    "2020-12"
+  ],
+  "seeds": [
+    20260716,
+    20260717
+  ],
+  "delays": [
+    0,
+    7,
+    14,
+    30
+  ],
+  "policies": [
+    "capped_weighted",
+    "sliding180_weighted",
+    "sliding180_unweighted"
+  ],
+  "models": [
+    "logistic",
+    "lightgbm",
+    "xgboost"
+  ],
+  "max_train": 350000,
+  "debug_max_rows": null
+}
