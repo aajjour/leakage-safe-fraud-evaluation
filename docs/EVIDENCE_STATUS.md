@@ -19,4 +19,4 @@
 - Raw-file hashes, environment lock, execution logs, and method-to-output map added.
 
 ## Scope limitations
-The archive does not contain raw third-party data, a prospective bank deployment, transaction-level prediction files for every workflow. Those limitations are disclosed in the manuscript.
+The archive does not contain raw third-party data, a prospective bank deployment, or transaction-level prediction files for every workflow. The public repository is https://github.com/aajjour/leakage-safe-fraud-evaluation, and release v1.0.1 is permanently archived on Zenodo under DOI 10.5281/zenodo.22311831.
