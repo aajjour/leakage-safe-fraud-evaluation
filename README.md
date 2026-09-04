@@ -41,8 +41,8 @@ The repository is intended to make the evaluation workflow auditable and reprodu
 
 ## Citation
 
-After archival deposit, cite the permanent Zenodo DOI assigned to the corresponding release.
+Cite the archived release using Zenodo DOI: https://doi.org/10.5281/zenodo.22311831.
 
 ## Repository version
 
-Prepared for the revised Array submission, September 2026.
+Release v1.0.1, permanently archived on Zenodo under DOI 10.5281/zenodo.22311831; prepared for the revised Array submission, September 2026.
