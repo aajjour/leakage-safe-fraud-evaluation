@@ -2,8 +2,11 @@ cff-version: 1.2.0
 message: "If you use these materials, please cite the associated manuscript and the archived repository release."
 title: "Leakage-Safe Temporal Evaluation of Credit-Card Fraud Detection: Reproducibility Materials"
 type: software
-version: "1.0.0"
+version: "1.0.1"
 date-released: 2026-09-04
+doi: "10.5281/zenodo.22311831"
+repository-code: "https://github.com/aajjour/leakage-safe-fraud-evaluation"
+url: "https://doi.org/10.5281/zenodo.22311831"
 authors:
   - family-names: "Al Mazari"
     given-names: "Ali"
